@@ -6,6 +6,8 @@ import router from "./router";
 
 import "./assets/main.css";
 
+import "material-design-icons-iconfont/dist/material-design-icons.css";
+
 Vue.use(PiniaVuePlugin);
 
 new Vue({
