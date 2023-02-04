@@ -13,10 +13,13 @@ a {
 }
 
 #app {
-  max-width: 1280px;
+  width: 100%;
   margin: 0 auto;
   padding: 2rem;
-
   font-weight: normal;
+  background-image: linear-gradient(rgba(255,255,255,.3), rgba(255,255,255,.3)), url("src/assets/weather_background.jpeg");
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  font-family: 'Antic Slab', Serif;
 }
 
